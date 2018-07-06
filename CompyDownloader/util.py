@@ -54,7 +54,7 @@ class Utilities(object):
 			cwd = os.getcwd()
 
 			# Create a temporary folder
-			dir_name = md5('competitive-dl').hexdigest()
+			dir_name = md5('CompyDownloader').hexdigest()
 			done = 0
 			count = 1
 
@@ -63,7 +63,7 @@ class Utilities(object):
 				if dir_name not in os.listdir('.'):
 					done = 1
 				else:
-					dir_name = md5('competitive-dl' + str(count)).hexdigest()
+					dir_name = md5('CompyDownloader' + str(count)).hexdigest()
 					count = count + 1
 
 			os.mkdir(cwd + '/' + dir_name)
@@ -106,7 +106,7 @@ class Utilities(object):
         """
 
         if site not in available and site not in upcoming:
-            print "Competitive-dl can\'t understand " + site
+            print "CompyDownloader can\'t understand " + site
             sys.exit(0)
         elif site in upcoming:
             print "Downloading questions from"\
