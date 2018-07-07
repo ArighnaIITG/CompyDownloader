@@ -5,8 +5,7 @@ A tool to download any problem/problemset from any contest/archive from any comp
 
 ### Features
 - Download any problem/problem set from any contest/archives from any competitive website as PDF for offline practice!
-	* You can download to any desired directory of your choice !
-- Get the HTML source of the problem page as well as the problem container
+	- You can download to any desired directory of your choice !
 - Get the problem statement , input & output samples as text  
 - Competitive sites from which download is possible (so far):
 	* [Codeforces](http://codeforces.com)
