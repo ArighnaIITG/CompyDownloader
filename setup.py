@@ -28,8 +28,8 @@ setup(
   install_requires= req_list,
 
   entry_points= {
-      'console_scripts':['CompyDownloader = CompyDownloader:'\
-      'mains']
+	  'console_scripts':['CompyDownloader = CompyDownloader:'\
+	  'mains']
   } ,
 
   url = 'https://github.com/ArighnaIITG/CompyDownloader',
@@ -38,9 +38,9 @@ setup(
   'competitive programming' , 'competitive' , 'cli'],
 
   classifiers = ['Operating System :: POSIX :: Linux',
-                 'License :: OSI Approved :: MIT License',
-                 'Programming Language :: Python :: 2.7',
-                 'Topic :: Education'],
+				 'License :: OSI Approved :: MIT License',
+				 'Programming Language :: Python :: 2.7',
+				 'Topic :: Education'],
 
   license='MIT License'
 )
