@@ -78,9 +78,10 @@ competitive-dl -s codeforces -c 682 -p C -d /home/arighna/ -o treeproblem.pdf
 ```  
 
 ```sh
-competitive-dl -s spoj -p PALIN -d /home/arighna/ -o my_fav_problem.pdf 
+competitive-dl -s spoj -p PALIN -d /home/arighna/ -o favourite.pdf 
 
 ```  
+Try to avoid **special characters** in the DIR and FILENAME arguments.
 ### Contributions
 If you find an idea that could be implemented here , please feel free to give a pull request or put that up as an issue [here](http://github.com/ArighnaIITG/CompyDownloader) :smile:
 
