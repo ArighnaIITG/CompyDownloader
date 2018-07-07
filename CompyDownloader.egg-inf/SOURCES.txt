@@ -1,0 +1,12 @@
+MANIFEST.in
+requirements.txt
+setup.py
+CompyDownloader/__init__.py
+CompyDownloader/main.py
+CompyDownloader/util.py
+CompyDownloader.egg-info/PKG-INFO
+CompyDownloader.egg-info/SOURCES.txt
+CompyDownloader.egg-info/dependency_links.txt
+CompyDownloader.egg-info/entry_points.txt
+CompyDownloader.egg-info/requires.txt
+CompyDownloader.egg-info/top_level.txt

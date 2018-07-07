@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: CompyDownloader
+Version: 1.0.0
+Summary: Download any problem/problem set from any contest/archives from any competitive website as PDF !
+Home-page: https://github.com/ArighnaIITG/CompyDownloader
+Author: Arighna Chakrabarty
+Author-email: arighnachakrabarty100@gmail.com
+License: MIT License
+Description: UNKNOWN
+Keywords: downloader,download as pdf,competitive programming,competitive,cli
+Platform: UNKNOWN
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Education
