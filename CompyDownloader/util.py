@@ -26,7 +26,7 @@ class Utilities(object):
 
     """
 
-    def _init_(self, *args):
+    def __init__(self, *args):
     	pass
     	# self.page_as_string = html
         # self.dr = dr
