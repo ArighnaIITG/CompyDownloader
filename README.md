@@ -1,4 +1,4 @@
-# CompyDownloader
+# :file_folder: CompyDownloader
 A tool to download any problem/problemset from any contest/archive from any competitive website as PDF for offline practice..!!
 
 **Note :** This tool is to be used for **educational** pursoses **only** and not for any other commercial use.
