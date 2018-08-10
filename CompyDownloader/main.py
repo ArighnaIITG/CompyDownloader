@@ -1,10 +1,12 @@
+# The argparse module makes it easy to write user-friendly command line interfaces. The program defines what arguments are required,
+# and argparse will figure out how to parse them out of sys.argv
 from util import Utilities as Ut, StaticScraper as Ssc, DynamicScraper as Dsc
 from argparse import ArgumentParser as Ap
 import sys
 
 def get_options():
 	parser = Ap()
-
+	# Filling an ArgumentParser object with info about program args is done by add_argumnets() method.
 	parser.add_argument('-s',
 						dest="site",
 						help="The competitive"
@@ -77,6 +79,7 @@ def mains():
 	dynamic_sites = ['codechef',
 					 'codejam']
 	scraper_obj = None
+	# Load the scarper obj from main.py
 	if args['site'] in static_sites:
 		scraper_obj = Ssc(**args)
 	else:
